@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.app{
+    background-color: grey;
+}
+.calculadora-container{
+    background-color: whitesmoke;
+    max-width: 600px;
+    height: 600px;
+    margin:30px auto auto auto;
+    border-radius: 20px;
+}
+.calculadora-tela{
+    display:grid;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+.calculadora-tela input:nth-child(1) {
+    width: 99.7%;
+    height: 75px;
+    border-radius: 20px 20px 0 0;    
+    font-size: 50px;
+    text-align:right;
+}
+.calculadora-tela input:nth-child(2) {
+    width: 99.7%;
+    height: 75px;
+    font-size: 50px;
+    text-align:right;
+}
+.calculadora-tela input:nth-child(3) {
+    width: 99.7%;
+    height: 75px;
+    font-size: 50px;
+    text-align:right;
+}
+/*NUMEROS CALCULADORA*/
+.calculadora-botoes-container{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.calculadora-numero-container{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    height: 300px;
+}
+.numero{
+    font-size: 30px;
+}
+/*OPERACOES CALCULADORA*/
+.calculadora-operacao-container{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.operacao{
+    font-size: 30px;
+}
